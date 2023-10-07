@@ -42,3 +42,12 @@ else if (age <= 14 || age >= 90){
 age == 5
     ? console.log("Yay you're 5 years old")
     : console.log("Noo ");
+
+//Now multiple ternary operators will be used
+let personAge = 20; 
+let access; 
+
+access =    (personAge < 10) ? "Child Access":
+            (personAge >= 10 && personAge <=18)? "Teen Access":
+            (personAge > 18 && personAge <=100)? "Adult Access":
+            'You is dead'; 
