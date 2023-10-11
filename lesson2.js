@@ -44,10 +44,51 @@ age == 5
     : console.log("Noo ");
 
 //Now multiple ternary operators will be used
-let personAge = 20; 
+let personAge = 200; 
 let access; 
 
 access =    (personAge < 10) ? "Child Access":
             (personAge >= 10 && personAge <=18)? "Teen Access":
             (personAge > 18 && personAge <=100)? "Adult Access":
             'You is dead'; 
+
+console.log(access);
+
+let result; 
+let a = 1;
+let b = 4; 
+
+result = (a + b < 4)? 'Below':'over';
+
+console.log(result)
+
+let message; 
+let login = "Employee"; 
+
+message =   (login == "Employee")? 'Hello':
+            (login == "Director")? 'Greetings':
+            (login == '')? 'Invalid Login': '';
+
+console.log(message);
+
+let n = 9
+
+switch(n){
+    case 7: 
+        console.log("7 was chosen"); 
+        break; 
+    
+    case 8: 
+        console.log("8 was chosen"); 
+        break; 
+    
+    case 9: 
+        console.log("9 was chosen");
+        
+    default: 
+        console.log("Some other number was chosen"); 
+}
+//For the switch case statements, the break function should be used and a default case shouls also be used
+//Also the cases wont work unless the data being compared is of the same TYPE and VALUE
+
+
